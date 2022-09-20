@@ -1,0 +1,5 @@
+Diário de bordo - Bloco 1
+
+Durante o primeiro bloco de atividades de aprendizado de máquina, teve-se como objetivo a coleta de dados, tal qual sua filtragem e análise. Num primeiro momento, pensamos em coletar dados da API da NASA, de modo a fazer a previsão do tempo em Marte. Contudo, a API não era abastecida a um longo período de tempo, o que impossibilitou uma análise precisa dos dados. Assim, decidimos por analisar dados da API Weather Stack, de modo a poder prever a temperatura, sensação térmica e descrição do tempo em uma faixa de longitude específica.
+Assim, no primeir dia, discutimos em grupo sobre o assunto que queríamos trabalhar, escolhendo o da NASA. Porém, chegado o segundo, analisando a API, chegamos a conclusão que, pela falta de abastecimento do banco de dados, não foi possível usar ele como base pros nossos estudos. Assim, no terceiro dia, começamos a nossa anélise com base em dados do clima, coletando os dados, de modo a fazer sua análise e plot de gráficos, além da regressão polinomial.
+Esse bloco foi produtivo, mas faltou maior participação do grupo.
