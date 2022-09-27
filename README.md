@@ -23,6 +23,16 @@ O projeto foi elaborado por 4 estudantes do curso de Bacharelado em Ciência e T
 
 <h3>Bloco 2</h3>
 
+- Divisão dos dados em treino e teste, para o desenvolvimento de uma baseline;
+- Identificação e escolha dos hiperparâmetros, para que fosse possível fazer um modelo de "k" vizinhos mais próximos, fazendo sua avaliação e estudando seu desempenho;
+- Execução da regressão linear, primeiramente sem normalização, seguido pelo modelo normalizado, além da avaliação de ambos;
+- Escolha dos hiperparâmetros de acordo com a intuição, treinando um modelo de árvore de decisão, com base no dataset de treino, seguida pela avaliação;
+- Alteração da complexidade do modelo, etudando seu desempenho de acordo com isso;
+- Esboço da árvore de decisão;
+- Agora, identifica-se os hiperparâmetros para o modelo de floresta aleatória, seguida pela avaliação do mesmo, mudando sua complexidade, tal qual foi feito anteriormente;
+- Escolha do melhor hiperparâmetro;
+- Comparação do desempenho dos modelos obtidos;
+- Escolha de um algoritmo para sua classificação, hiperparâmetros, usando intuição, para terinamento do modelo e, por fim, avaliação do desempenho.
 <h3>Bloco 3</h3>
 
 <h3>Bloco 4</h3>
