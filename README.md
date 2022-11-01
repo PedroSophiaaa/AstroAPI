@@ -33,7 +33,14 @@ O projeto foi elaborado por 4 estudantes do curso de Bacharelado em Ciência e T
 - Escolha do melhor hiperparâmetro;
 - Comparação do desempenho dos modelos obtidos;
 - Escolha de um algoritmo para sua classificação, hiperparâmetros, usando intuição, para terinamento do modelo e, por fim, avaliação do desempenho.
+
 <h3>Bloco 3</h3>
+
+- Redução de dimensionalidade e aplicação de PCA (análise de componente principal);
+- Clustering, para encontrar grupos semelhantes;
+- Detecção de outliers para melhor entendimento dos resultados obtidos, utilizando as técnicas:
+  - LOF;
+  - Insolation Forest.
 
 <h3>Bloco 4</h3>
 
