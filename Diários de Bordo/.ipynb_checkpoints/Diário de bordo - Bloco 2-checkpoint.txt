@@ -1,0 +1,7 @@
+Durante o bloco 2, buscamos desenvolver, principalmente, os modelos de árvore de decisão e floresta aleatória. Para isso, seguimos o ritmo de acordo com as aulas, conseguindo acompanhar e naão deixar nada ficar muito atrasado, só tivemos problema com o modelo de floresta aletória, na qual o primeiro código apresentou erro, não voltando um resultado satisfatório, fazendo com que precisasse ser refeito. Porém, num geral, a execução do bloco foi satisfatória, já que conseguimos suprir todas as tarefas esperadas.
+
+Com relação aos membros, houve uma participação mais geral do grupo, com os participantes engajando mais e buscando participar e entender melhor o que seria feito.
+
+Assim, entendemos esse bloco mais como a execução da previsão do tempo, por essência. Num geral, o bloco me pareceu menos complexo que o primeiro, já que a parte de separação, coleta, filtro e análise dos dados pode ser bem trabalhosa e, em certo ponto difícil. 
+
+Assim, esse bloco me pareceu mais divertido que o primeiro.
