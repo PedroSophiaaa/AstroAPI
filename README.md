@@ -13,8 +13,9 @@ O projeto foi elaborado por 4 estudantes do curso de Bacharelado em Ciência e T
 - Victor Puntel Rui.
 
 <h2>Links importantes</h2>
+<a href = "NoteBook_Resultado.ipynb"> Notebook com os melhores resultados;</a>
 <a href = "Notebooks"> Pasta com os notebooks parciais utilizados no desenvolvimento do trabalho;</a>
-<a href = "Dados_Real.zip"> Dados utilizados para a execução do código;</a>
+<a href = "Dados Real.zip"> Dados utilizados para a execução do código;</a>
 
 <h2>O processo</h2>
 
