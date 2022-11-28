@@ -4,7 +4,7 @@
 
 <h2>Descrição</h2>
 O projeto tem como objetivo prever três características climáticas em qualquer latitude do globo (utilizando a API fornecida pelo site WeatherStack), fixa a uma longitude de 20°, com base nos dados fornecidos por um limitado número de estações meteorológicas dispostas latitudinalmente.
-Torna-se possível dispor graficamente e aplicar uma regressão polinomial para descrever o comportamento da temperatura, sensação térmica e descrição do clima, para que seja possível prever a determinada característica de maneira precisa.
+Torna-se possível dispor graficamente e aplicar métodos de regressão para descrever o comportamento da temperatura, sensação térmica e descrição do clima da maneira mais precisa possível.
 
 O projeto foi elaborado por 4 estudantes do curso de Bacharelado em Ciência e Tecnologia, da ILUM - Escola de ciências, sendo eles:
 - Pedro Henrique Sophia;
