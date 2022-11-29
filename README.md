@@ -4,7 +4,7 @@
 
 <h2>Descrição</h2>
 O projeto tem como objetivo prever três características climáticas em qualquer latitude do globo (utilizando a API fornecida pelo site WeatherStack), fixa a uma longitude de 20°, com base nos dados fornecidos por um limitado número de estações meteorológicas dispostas latitudinalmente.
-Torna-se possível dispor graficamente e aplicar uma regressão polinomial para descrever o comportamento da temperatura, sensação térmica e descrição do clima, para que seja possível prever a determinada característica de maneira precisa.
+Torna-se possível dispor graficamente e aplicar métodos de regressão para descrever o comportamento da temperatura, sensação térmica e descrição do clima da maneira mais precisa possível.
 
 O projeto foi elaborado por 4 estudantes do curso de Bacharelado em Ciência e Tecnologia, da ILUM - Escola de ciências, sendo eles:
 - Pedro Henrique Sophia;
@@ -12,38 +12,21 @@ O projeto foi elaborado por 4 estudantes do curso de Bacharelado em Ciência e T
 - Pedro Thomazelli Ferreira;
 - Victor Puntel Rui.
 
+<h2>Links importantes</h2>
+<li><a href = "NoteBook_Resultado.ipynb"> Notebook com os melhores resultados;</a></li>
+<li><a href = "Notebooks"> Pasta com os notebooks parciais utilizados no desenvolvimento do trabalho;</a></li>
+<li><a href = "Dados Real.zip"> Dados utilizados para a execução do código.</a></li>
+
 <h2>O processo</h2>
 
-<h3>Bloco 1</h3>
+O projeto desenvolvido pode ser visto como dividido em algumas etapas. Primeiro, houve a coleta dos dados, de modo a serem escolhidos aqueles que mais se adequassem ao projeto. Além disso, foram preparados os dados, feito o mensuramento, caracterização e filtragem dos mesmos, definindo o melhor conjunto a ser usado. A partir disso, foi feita análise para determinar se os dados escolhidos apresentariam os resultados esperados, seguida de uma outra análise para determinar as features a serem usadas.
 
-- Coleta dos dados, de modo a selecionar aqueles que mais se adequassem à realização da previsão;
-- Preparação dos dados, que consiste no mensuramento, caracterização e filtragem, de modo a definir um melhor conjunto para o modelo;
-- Análise dos dados, seguida de uma discussão para concluir se os dados escolhidos resultaram como esperado;
-- Análise sobre as estatísticas descritivas dos dados, a fim de encontrar a covariância das diferentes features - características que terão influência na previsão do modelo.
+Agora, nessa segunda etapa, a primeira coisa a ser feita era desenvolver uma baseline,o que foi feito a partir da divisão de dados em treino e teste; feito isso, escolhemos os autoparâmetros a serem usados, fazendo o modelo de "k" vizinhos. Com isso, feito, seguimos para a execução da regressão linear, que foi feita com e sem normalização dos dados, possibilitando uma melhor avaliação dos dados. Então, escolhendo hiperparâmetros por intuição, buscamos treinar o modelo de árvore de decisão, que foi avaliado na sequência, sendo feito o esboço da árvore de decisão. Após as avaliações feitas e a mudança da complexidade dos modelos, foi possível determinar o melhor hiperparâmetro a ser usado, que em seguida foi comparado com os demais modelos já existentes. Por fim, escolhemos um algoritmo para a classificação dos hiperparâmetros. usando, novamente, intuição, seguido da avaliação desse.
 
-<h3>Bloco 2</h3>
+Para a terceira etapa, fizemos,primeiramente, a redução de dimensionalidade e aplicação de PCA (análise de componente principal), seguido do clustering, buscando encontrar grupos semelhantes. Com isso em mãos, fizemos a detecçõa de outliers, visando o melhor entendimento dos resultados obtidos, com as técnicas de LOF e Isolation Forest.
 
-- Divisão dos dados em treino e teste, para o desenvolvimento de uma baseline;
-- Identificação e escolha dos hiperparâmetros, para que fosse possível fazer um modelo de "k" vizinhos mais próximos, fazendo sua avaliação e estudando seu desempenho;
-- Execução da regressão linear, primeiramente sem normalização, seguido pelo modelo normalizado, além da avaliação de ambos;
-- Escolha dos hiperparâmetros de acordo com a intuição, treinando um modelo de árvore de decisão, com base no dataset de treino, seguida pela avaliação;
-- Alteração da complexidade do modelo, etudando seu desempenho de acordo com isso;
-- Esboço da árvore de decisão;
-- Agora, identifica-se os hiperparâmetros para o modelo de floresta aleatória, seguida pela avaliação do mesmo, mudando sua complexidade, tal qual foi feito anteriormente;
-- Escolha do melhor hiperparâmetro;
-- Comparação do desempenho dos modelos obtidos;
-- Escolha de um algoritmo para sua classificação, hiperparâmetros, usando intuição, para terinamento do modelo e, por fim, avaliação do desempenho.
+Finalmente, na última etapa, foram feitos os outliers, achando dados que distoam muito da curva encointrada, sendo avaliados depois.
 
-<h3>Bloco 3</h3>
+<h2>Conclusão</h2>
+Em conclusão, o trabalho desenvolvido para a matéria de Aprendizado de Maquina para previsao de temperatura e sensação térmica teve sucesso acima do esperado. Foram destacados possíveis modelos e métodos que podem ser utilizados para previsão destes dois objetivos a partir dos dados passados. No desenvolvimento do projeto, os alunos conseguiram fazer previsões moderadas com vários dos modelos, destancando-se dentre eles alguns modelos que foram de extrema importância para a continuação do projeto e para que fosse possível fazer previsões muito próximas da realidade.
 
-- Redução de dimensionalidade e aplicação de PCA (análise de componente principal);
-- Clustering, para encontrar grupos semelhantes;
-- Detecção de outliers para melhor entendimento dos resultados obtidos, utilizando as técnicas:
-  - LOF;
-  - Insolation Forest.
-
-<h3>Bloco 4</h3>
-
-⚠️ Projeto em andamento ⚠️
-
-<h2>Resultados</h2>
